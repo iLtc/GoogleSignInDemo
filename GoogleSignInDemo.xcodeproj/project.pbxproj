@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24D249CE2375E598001D3933 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D249CD2375E598001D3933 /* DetailsViewController.swift */; };
 		24EAC9212373318E005478F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAC9202373318E005478F9 /* AppDelegate.swift */; };
 		24EAC9232373318E005478F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAC9222373318E005478F9 /* SceneDelegate.swift */; };
 		24EAC9252373318E005478F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAC9242373318E005478F9 /* ViewController.swift */; };
 		24EAC9282373318E005478F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EAC9262373318E005478F9 /* Main.storyboard */; };
 		24EAC92A2373318F005478F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EAC9292373318F005478F9 /* Assets.xcassets */; };
 		24EAC92D2373318F005478F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EAC92B2373318F005478F9 /* LaunchScreen.storyboard */; };
-		24EAC9352373345E005478F9 /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EAC9342373345E005478F9 /* ConfigService.swift */; };
-		24EAC93723733506005478F9 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24EAC93623733506005478F9 /* credentials.plist */; };
 		CBDD6854E7784EAB96F62216 /* Pods_GoogleSignInDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1506A26E50DAA42BBCCFA8 /* Pods_GoogleSignInDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24D249CD2375E598001D3933 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		24EAC91D2373318E005478F9 /* GoogleSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EAC9202373318E005478F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24EAC9222373318E005478F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,8 +27,6 @@
 		24EAC9292373318F005478F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24EAC92C2373318F005478F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24EAC92E2373318F005478F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24EAC9342373345E005478F9 /* ConfigService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigService.swift; sourceTree = "<group>"; };
-		24EAC93623733506005478F9 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 		37CD29EC52A39B92DE74F39F /* Pods-GoogleSignInDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemo.release.xcconfig"; path = "Target Support Files/Pods-GoogleSignInDemo/Pods-GoogleSignInDemo.release.xcconfig"; sourceTree = "<group>"; };
 		611B162037C42CE675C0847B /* Pods-GoogleSignInDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemo.debug.xcconfig"; path = "Target Support Files/Pods-GoogleSignInDemo/Pods-GoogleSignInDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FC1506A26E50DAA42BBCCFA8 /* Pods_GoogleSignInDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSignInDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,12 +65,11 @@
 		24EAC91F2373318E005478F9 /* GoogleSignInDemo */ = {
 			isa = PBXGroup;
 			children = (
-				24EAC93623733506005478F9 /* credentials.plist */,
 				24EAC9202373318E005478F9 /* AppDelegate.swift */,
-				24EAC9342373345E005478F9 /* ConfigService.swift */,
 				24EAC9222373318E005478F9 /* SceneDelegate.swift */,
 				24EAC9242373318E005478F9 /* ViewController.swift */,
 				24EAC9262373318E005478F9 /* Main.storyboard */,
+				24D249CD2375E598001D3933 /* DetailsViewController.swift */,
 				24EAC9292373318F005478F9 /* Assets.xcassets */,
 				24EAC92B2373318F005478F9 /* LaunchScreen.storyboard */,
 				24EAC92E2373318F005478F9 /* Info.plist */,
@@ -159,7 +156,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				24EAC92D2373318F005478F9 /* LaunchScreen.storyboard in Resources */,
-				24EAC93723733506005478F9 /* credentials.plist in Resources */,
 				24EAC92A2373318F005478F9 /* Assets.xcassets in Resources */,
 				24EAC9282373318E005478F9 /* Main.storyboard in Resources */,
 			);
@@ -232,9 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24EAC9252373318E005478F9 /* ViewController.swift in Sources */,
-				24EAC9352373345E005478F9 /* ConfigService.swift in Sources */,
 				24EAC9212373318E005478F9 /* AppDelegate.swift in Sources */,
 				24EAC9232373318E005478F9 /* SceneDelegate.swift in Sources */,
+				24D249CE2375E598001D3933 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
